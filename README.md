@@ -1,5 +1,5 @@
-# Python-side-projects I am working on over this summer -
-A collection of small Python scripts exploring various concepts — math, string manipulation, games, patterns, file utilities, and more.
+# Python-side-projects I am working  on over this summer -
+A collection of Python scripts exploring various concepts — math, string manipulation, games, patterns, file utilities, and more.
 
 ---
 
