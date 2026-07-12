@@ -127,8 +127,18 @@ print(multiply(4, 5))  # Output: 20
 | `tickTock.py` | Prints "Tick" and "Tock" alternately every second for 10 seconds | `time` |
 
 ---
+### 📊 Excel Automation
+
+| File | Description | Libraries |
+|------|-------------|-----------|
+| `strike_test.py` | Creates a workbook and applies strikethrough font styling to a cell using `Font` | `openpyxl` |
+| `findAllExcel.py` | Searches every `.xlsx` file in the current folder for a case-insensitive text match, returns matching cell addresses | `openpyxl`, `os` |
+| `homeFilesReportExcel.py` | Scans the user's home folder and generates an Excel report listing every file and its size in bytes | `openpyxl`, `os`, `pathlib` |
+
+---
 
 ## 🛠️ Requirements
 
 - Python 3.x
-- No external packages needed — all libraries (`random`, `re`, `os`, `time`, `string`) are built into Python
+- - `openpyxl` (install with `pip install openpyxl`) — required for the Excel Automation scripts
+- No external packages needed — all libraries (`random`, `re`, `os`, `time`, `string`,`) are built into Python
