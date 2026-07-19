@@ -136,7 +136,7 @@ print(multiply(4, 5))  # Output: 20
 | `homeFilesReportExcel.py` | Scans the user's home folder and generates an Excel report listing every file and its size in bytes | `openpyxl`, `os`, `pathlib` |
 
 ---
-###📈 Google Sheets Automation
+##📈 Google Sheets Automation
 
 Automating Google Sheets with the `ezsheets` module — uploading, downloading, and syncing spreadsheet data via the Google Sheets and Drive APIs.
 
