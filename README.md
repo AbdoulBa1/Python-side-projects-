@@ -136,16 +136,16 @@ print(multiply(4, 5))  # Output: 20
 | `homeFilesReportExcel.py` | Scans the user's home folder and generates an Excel report listing every file and its size in bytes | `openpyxl`, `os`, `pathlib` |
 
 ---
-##📈 Google Sheets Automation
+## 📈 Google Sheets Automation
 
 Automating Google Sheets with the `ezsheets` module — uploading, downloading, and syncing spreadsheet data via the Google Sheets and Drive APIs.
 
 | Project | Description |
 |---|---|
 | `uploadAllSpreadsheets.py` | Searches the current working directory for all `.xlsx` and `.csv` files and uploads each one to Google Sheets, printing progress as it goes |
+| `homeFilesReportGoogleSheets.py` | Scans the home folder, finds the 100 largest files by size, and writes a "Home Files Report" spreadsheet to Google Sheets with filenames in column A and file sizes in column B |
 
-**Skills practiced:** OAuth2 authentication flow, Google Cloud Console API setup (Sheets + Drive APIs), `os.listdir()` file filtering, working directory vs. script location debugging, EZSheets object model (`Spreadsheet`, `Sheet`, `.title`, `.url`, `.sheets`)
-
+**Skills practiced:** OAuth2 authentication flow, Google Cloud Console API setup (Sheets + Drive APIs), `os.listdir()` file filtering, `Path.stat()` for file sizes, `.sort()` with `key=lambda` for custom sorting, list slicing, working directory vs. script location debugging, EZSheets object model (`Spreadsheet`, `Sheet`, `.title`, `.url`, `.sheets`), `sheet.updateRow()`, protecting OAuth credentials with `.gitignore`
 ## 🛠️ Requirements
 
 - Python 3.x
